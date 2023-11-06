@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.container {
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.item1 {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.item1 img {
+    width: 100%;
+    display: block;
+}
+
+.img-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+}
+
+.img-hover img {
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item1:hover .img-hover {
+    display: block;
+}
+
+.item2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.item2 a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.ETH .day {
+    display: flex;
+    align-items: center;
+}
+
+.ETH {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.day {
+    padding: 7px;
+}
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+.item6 {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.item6 img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+.item6 p a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.item6 p a:hover {
+    color: hsl(178, 100%, 50%);
+}
